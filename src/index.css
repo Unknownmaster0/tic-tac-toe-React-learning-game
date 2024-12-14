@@ -1,0 +1,32 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 3rem); /* Create 3 columns */
+  justify-content: center; /* Center the board horizontally */
+  margin-top: 2rem; /* Add space from the top */
+  margin-right: 2rem;
+}
+
+.square {
+  height: 3rem;
+  width: 3rem;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 3rem;
+  background-color: azure;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.status{
+  font-size: larger;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
